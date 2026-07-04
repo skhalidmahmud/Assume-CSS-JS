@@ -617,33 +617,3 @@ function formatCurrency(amount, currency = 'USD', locale = 'en-US') {
 // Usage: formatCurrency(1234.56, 'EUR', 'de-DE') -> "1.234,56 €"
 
 ```
-
-### 11. Deep Clone an Object
-
-**What it does:** Safely copies a deeply nested JavaScript object without holding references to the original object.
-
-```javascript
-function deepClone(obj) {
-    return structuredClone(obj);
-}
-/* Usage:
-const original = { a: 1, nested: { b: 2 } };
-const clone = deepClone(original);
-*/
-
-```
-
-"""
-
-with open('help.md', 'w', encoding='utf-8') as f:
-f.write(content)
-
-print("File generated.")
-
-```
-Your Markdown file is ready
-[file-tag: code-generated-file-0-1783145055747123542]
-
-I have generated the fully comprehensive `help.md` file for you. It contains all 30 Advanced CSS snippets and all 11 Advanced JavaScript snippets, complete with code blocks, explanations of what each does, and usage examples. You can download this single file and keep it on hand as your ultimate cheat sheet for your web development projects!
-
-```
